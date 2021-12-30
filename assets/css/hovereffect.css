@@ -1,0 +1,21 @@
+.mas-3{width:33.33333333333333% !important;}
+.masonry{width:25%;float:left;padding:0 10px;}
+.masonry-grid{width:100%;float:left;position:relative;overflow:hidden;display:block;margin:0 0 20px 0;}
+.masonry-grid img{width:100%;display:block;}
+.masonry-grid a{}
+.masonry-grid a figcaption{background-color:rgba(255, 255, 255 ,0.9);border:20px solid #E2B22E;padding:0;position:absolute;top:0;left:0;width:100%;height:100%;z-index:2;color:#084378;-webkit-transition:all 0.35s ease;transition:all 0.35s ease;opacity:0;-webkit-transform:scale(0.5);transform:scale(0.5);}
+.masonry-grid a:hover figcaption{-webkit-transform:scale(1);transform:scale(1);opacity:1;}
+.masonry-grid a figcaption:after,
+.masonry-grid a figcaption:before{width:200%;height:200%;-webkit-transition:all 0.6s ease;transition:all 0.6s ease;opacity:0.75;background-color:#E2B22E;position:absolute;left:0;top:0;z-index:-2;content:'';}
+.masonry-grid a figcaption:after{-webkit-transform:skew(45deg) translateX(-100%);transform:skew(45deg) translateX(-100%);}
+.masonry-grid a figcaption:before{-webkit-transform:skew(45deg) translateX(100%);transform:skew(45deg) translateX(100%);}
+.masonry-grid a figcaption:hover:after{-webkit-transform:skew(45deg) translateX(0%);transform:skew(45deg) translateX(0%);opacity:0;}
+.masonry-grid a figcaption:hover:before{-webkit-transform:skew(45deg) translateX(0%);transform:skew(45deg) translateX(0%);opacity:0;}
+.bx{width:100%;height:100%;display:table;position:absolute;left:0;top:0;text-align:center;}
+.bx p:last-child{margin:0;}
+.masonry-grid h3{font-weight:900;font-size:14px;position:relative;width:100%;float:left;text-align:center;padding:15px 0 0 0;margin:0;}
+.masonry-grid h3 span{font-size:12px;}
+.masonry-grid h3:before{width:20px;height:3px;position:absolute;left:50%;top:-3px;margin-left:-10px;content:'';background-color:#E2B22E;-webkit-transition:all 0.6s ease;transition:all 0.6s ease;}
+.masonry-grid h3:hover:before{width:100px;margin-left:-50px;}
+.masonry-icon{width:61px;height:62px;display:inline-block;background-image:url(../images/zoom-icon.html);background-repeat:no-repeat;background-position:center center;}
+.masonry-icon:hover{background-image:url(../images/zoom-icon2.html);}
